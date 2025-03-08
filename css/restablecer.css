@@ -1,0 +1,72 @@
+:root{
+    --colorFondoBoton: #23384a;
+    --colorFondobg: #27445D;
+    --colorTexto: #D8D2C2;
+    --fuenteTitulo: "Lexend Deca", serif;
+}
+body{
+    background-color: var(--colorFondobg) !important;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.form-container{
+    background-color: var(--colorFondobg) !important;
+    padding: 80px 35px;
+    width: 100%;
+    max-width: 380px !important;
+    height: 100%;
+    max-height: 400px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0.3);
+    border-radius: 15px;
+}
+.btn{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: var(--colorFondoBoton) !important;
+    margin-top: 15px;
+   
+}
+label{
+    margin-top: 5px;
+    font-size: 16pxpx;
+    color: var(--colorTexto);
+}
+::placeholder{
+    color: #747472 !important;
+    font-size: 15px;
+}
+input{
+    padding: 5px !important;
+    border-radius: 5px !important;
+    background-color: var(--colorFondoBoton) !important;
+    border-style: none !important;
+    color: var(--colorTexto);
+}
+.icon{
+    position: absolute;
+    top: 78%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+form .titulo{
+    text-transform: uppercase;
+    color: var(--colorTexto);
+    padding-bottom: 20px !important;
+    font-size: 18px;
+    font-family: var(--fuenteTitulo) !important;
+    font-weight: 600;
+    margin: auto;
+    margin-top: -40px !important;
+}
+.card-img-top{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+

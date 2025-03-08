@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body {
+    background: linear-gradient(100deg, rgba(67, 100, 45, 0.5), rgba(100, 90, 78, 0.4) )
+}
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-img {
+    width: 400px;
+}
+
+.img {
+    width: 30px;
+}
+
+.link {
+    color: #000 !important;
+
+}
+
+.link:hover {
+    background-color: #f2f4f4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-right: 20px;
+}
+.nav-img{
+    width: 100px;
+    height: 100px;
+}
+.carrito{
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    max-height: 300px;
+    margin-right: 20px !important;    
+}
+.img-carrito{
+    width: 80px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 30px;
+}
+.contador-carrito{
+   position: absolute;
+   right: 46px;
+   background-color: #000;
+   color: #f2f4f4;
+   border-radius: 500px;
+   border-radius: 50;
+   padding: 0  8px;
+   transform: translateY(-50%);
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    margin-top: 60px;
+    gap: 15px;
+
+}
+.img-stock{
+    width: 120px;
+    align-items: center;
+    text-align: center;
+}
+.nombre-negocio h4{
+    text-transform: uppercase;
+    font-family: "Lalezar", serif;
+    font-size: 50px;
+}
+ .promocion{
+    font-size: 35px;
+    font-family: "Handlee", serif;
+    font-weight: 800;
+}
+.contenedor2{
+    display: flex;
+    background-color: #f2f4f4;
+    width: 100%;
+    max-width: 400px !important;
+    min-height: 200px !important;
+    margin-top: 25px !important;
+    align-items: center;
+    gap: 20px !important;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.7s;
+    margin: 0 auto;
+    margin-bottom: 40px 20px;
+}
+.contenedor2:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    width: 120px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 150px;
+    
+}
+.nombre-producto h4{
+    font-size: 22px !important;
+    text-transform: uppercase;
+    font-family: "Lalezar", serif;
+    font-weight: 800;
+    padding: 10px;
+}
+.precio{
+    display: flex;
+    gap: 20px;
+    font-family: "Lalezar", serif;
+    
+}
+.precio p{
+    margin-left: 10px;
+}
+.boton{
+    width: 80%;
+    margin-right: 10px !important;
+}
+.submenu{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.submenu #carrito{
+    display: none;
+}
+.img-carrito{
+    width: 60px;
+    top: 10px;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 100%;
+    right: 40px ;
+    z-index: 1;
+    background-color: rgb(150,150, 150);
+    padding: 20px;
+    min-width: 400px !important;
+
+}
+table{
+    width: 100%;
+    border-radius: 20px;
+}
+th, td{
+    color: rgb(250, 250, 250);
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.borrar{
+    background-color: #f35200;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn-2{
+    border: 2px solid #f35200;
+    width: 38%;
+    border-radius: 50px;
+    color: #f2f4f4 !important;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between !important;
+}
+.btn-3{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f35200;
+    padding: 10px;
+    border-radius: 50px !important;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+.btn-2:hover{
+    background-color: #f35200;
+}
+.footer{
+    margin-top: 60px ;
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+.titulo-footer{
+   text-transform: uppercase ;
+   padding: 50px;
+   text-align: center;
+   font-family:  "Paytone One", sans-serif;
+}
+hr{
+    border: solid 5px black !important;
+    margin-top: 15px;
+    width: 50%;
+    text-align: center !important;
+    
+    
+}
+.img-footer{
+    width: 40px;
+    text-align: center;
+    align-items: center;  
+    text-align: center !important; 
+}
+.img-footer  img{
+   margin: 20px;
+   border: solid 3px black;
+   align-items: center;
+   border-radius: 20px;
+   padding: 3px;
+   background-color: #f2f4f4;
+}
+.derecho-autor{
+    text-align: center !important;
+    padding-bottom: 20px;
+    font-family: "Paytone One", sans-serif;
+    font-size: 16px !important;
+}
+@media (max-width: 991px){
+    .submenu #carrito{
+       min-width: 100%;
+       text-align: center;
+       left: 5px;
+       padding-left: 20px;
+    }
+    .contenedor{
+        flex-direction: column;
+        padding: 20px;
+    }
+    table{
+       justify-content: end;
+    }
+    .nombre-negocio h4{
+        text-align: center;
+        font-size: 40px;
+    }
+    .promocion{
+        text-align: center;
+        padding: 10px;
+    }
+    .contenedor3{
+        background-color: #f2f4f4;
+        color: #000;
+    }
+    .columna{
+        flex-direction: column !important;
+    }
+    .contenedor2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        min-height: 50px !important;
+        text-align: center;
+       
+        
+    }
+   
+    .nombre-producto h4{
+        width: 50%;
+        font-size: 16px !important;
+        margin-top: 10;
+        
+    }
+    .precio{
+        padding-bottom: 30px;
+    }
+    .btn-3 {
+      margin-top: 50px !important;
+    }
+    .img-footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
