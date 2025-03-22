@@ -13,6 +13,7 @@ body {
 
 .img {
     width: 30px;
+    border-radius: 50%;
 }
 
 .link {
@@ -178,8 +179,8 @@ a{
     font-size: 16px;
     font-weight: 600;
     padding: 10px;
-    display: flex;
-    justify-content: space-between !important;
+    float: left;
+    margin: 20px;
 }
 .btn-3{
     text-decoration: none;

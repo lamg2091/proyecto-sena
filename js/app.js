@@ -1,6 +1,7 @@
 const carrito = document.querySelector("#carrito tbody");
 const vaciarCarritoBtn = document.querySelector("#vaciar-carrito");
 const listaProductos = document.querySelector(".container.mb-6");
+const pago = document.querySelector("#confirmar-pago");
 let articulosCarrito = [];
 
 // Event Listeners
@@ -12,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 listaProductos.addEventListener("click", agregarProducto);
 carrito.addEventListener("click", eliminarProducto);
 vaciarCarritoBtn.addEventListener("click", vaciarCarrito);
+pago.addEventListener('click', confirmarPago);
+
 
 // Función para agregar un producto al carrito
 function agregarProducto(e) {
@@ -103,4 +106,14 @@ function limpiarCarrito() {
     while (carrito.firstChild) {
         carrito.removeChild(carrito.firstChild);
     }
+}
+
+//confirmar el pago
+function confirmarPago(){
+    if(articulosCarrito.length === 0){
+        alert("el carrito es vacio agrega un articulo para pagar")
+        return;
+    }
+    alert("pago confirmado Gracias por su compra")
+    vaciarCarrito();
 }

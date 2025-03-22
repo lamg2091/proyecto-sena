@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de usuario</title>
+    <link href="../css/perfil.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="profile-card">
+        <img id="profile-img" src="../imagenes/foto-user.jpg" alt="Foto de perfil">
+        <h2 id="profile-name">Luis Alfonso Mejia Mejia</h2>
+        <p id="profile-desc">Desarrollador Web | Apasionado por la tecnología</p>
+        <div class="contact-info">
+            <a id="profile-email" href="mailto:luismejim1991@gmail.com">luismejim1991@gmail.com</a>
+            <a id="profile-phone" href="tel:+3225316443">+3225316443</a>
+        </div>
+    </div>
+    
+    <div class="edit-form">
+        <h3>Editar Perfil</h3>
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="text" id="desc" placeholder="Descripción" required>
+        <input type="email" id="email" placeholder="Correo" required>
+        <input type="tel" id="phone" placeholder="Teléfono" required>
+        <button onclick="updateProfile()">Guardar Cambios</button>
+    </div>
+    
+    <script src="../js/perfil.js"></script>
+</body>
+</html>
